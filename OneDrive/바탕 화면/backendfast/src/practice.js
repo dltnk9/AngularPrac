@@ -45,3 +45,8 @@ document.getElementById('myButton').addEventListener('click', function () {
 setTimeout(function () {
   console.log('1초경과')
 }, 1000)
+
+var res = [1, 2, 3].map(function (item) {
+  return item * 2
+})
+console.log(res)
